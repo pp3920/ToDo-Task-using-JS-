@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="Task-Name">Task name</label> <br>
+            <input id="TaskName" type="text" name="Task name"> <br>
+
+        </div>
+
+        <div>
+            <label for="Category"> Category</label> <br>
+            <input id="Category" type="text" name="Category"> <br>
+        </div>
+
+
+        <div>
+            <label for="Deadline">Deadline:</label>
+            <input id="Deadline" type="date" name="Deadline">
+        </div>
+
+        <div>
+            <label for="taskStatus">Update Task Status:</label>
+            <select id="taskStatus" name="taskStatus" id="taskStatus">
+                <option value="Completed">Completed</option>
+                <option value="InProgress">InProgress</option>
+                <option value="Overdue">OverDue</option>
+
+            </select>
+
+        </div>
+
+        <div>
+            <button id="Taskadd" type="button">Add Task</button>
+        </div>
+
+        <ul id="list"></ul>
+
+
+
+
+    </form>
+</body>
+
+</html>
